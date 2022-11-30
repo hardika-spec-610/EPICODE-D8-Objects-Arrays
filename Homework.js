@@ -154,10 +154,14 @@ console.log("type of the car variable", typeof car1.brand)
 */
 
 console.log("EXERCISE 12 \n")
+// let carsForSale = [];
+// carsForSale[0] = car1;
+// carsForSale[1] = car2;
+// carsForSale[2] = car3;
+// console.log("insert the car in empty array:", carsForSale)
+
 let carsForSale = [];
-carsForSale[0] = car1;
-carsForSale[1] = car2;
-carsForSale[2] = car3;
+carsForSale.push(car1, car2, car3);
 console.log("insert the car in empty array:", carsForSale)
 
 let totalCars = carsForSale.length + carsForRent.length;
